@@ -1,9 +1,9 @@
-import { Link } from "react-router";
+import HeroSection from "@/components/sections/hero-section"
 
 export default function HomePage() {
   return (
     <>
-      <Link to="/about">About Page</Link>
+      <HeroSection />
     </>
-  );
+  )
 }

@@ -1,5 +1,5 @@
-import { Outlet } from "react-router";
-import SiteHeader from "@/components/common/site-header";
+import SiteHeader from "@/components/common/site-header"
+import { Outlet } from "react-router"
 
 export default function RootLayout() {
   return (
@@ -9,5 +9,5 @@ export default function RootLayout() {
         <Outlet />
       </main>
     </>
-  );
+  )
 }
